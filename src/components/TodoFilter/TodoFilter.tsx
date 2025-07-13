@@ -17,8 +17,11 @@ export const TodoFilter: React.FC = () => {
     dispatch(setStatus(e.target.value as Status));
   };
 
+  // const handlerInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   dispatch(setQuery(e.target.value as Status));
+  // };
   const handlerInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    dispatch(setQuery(e.target.value as Status));
+    dispatch(setQuery(e.target.value));
   };
 
   const clearInputChange = () => {

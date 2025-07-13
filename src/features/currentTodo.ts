@@ -29,7 +29,7 @@ export const currentTodoSlice = createSlice({
     },
     clearUser(state) {
       // eslint-disable-next-line no-param-reassign
-      state.currentTodo = null;
+      state.currentUser = null;
     },
 
     clearTodo(state) {
